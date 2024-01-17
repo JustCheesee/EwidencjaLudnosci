@@ -1,3 +1,5 @@
+package ewidencja;
+
 import java.io.IOException;
 public interface View
 {

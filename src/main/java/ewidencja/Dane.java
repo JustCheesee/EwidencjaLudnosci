@@ -1,7 +1,29 @@
+package ewidencja;
+
 import java.time.LocalDate;
 public class Dane {
 
     public Record[] recordsToAdd = new Record[2];
+
+    public String[][]loginData = {
+        {
+            "11111111111",
+            "haslo"
+        },
+        {
+            "80567890111",
+            "password"
+        },
+        {
+            "8056789011",
+            "password"
+        },
+        {
+            "abc",
+            "password"
+        },
+
+    };
     public String[][] inputData = {
         {
                 "11111111111",
@@ -25,6 +47,11 @@ public class Dane {
         }
     };
 
+    public Long[] PESELS = {
+            11111111111L,
+            1234567890L,
+            8056789011L,
+    };
 
     public Dane()
     {

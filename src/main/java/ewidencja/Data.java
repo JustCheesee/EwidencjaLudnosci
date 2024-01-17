@@ -1,3 +1,5 @@
+package ewidencja;
+
 import java.time.LocalDate;
 
 public class Data {

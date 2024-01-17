@@ -1,3 +1,5 @@
+package ewidencja;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -11,7 +13,7 @@ public class CitizenView implements View
     private boolean newAccount;
 
     //Constructor
-    CitizenView() throws IOException {
+    public CitizenView() throws IOException {
         app = new App();
         newAccount = true;
 //        GUI();
@@ -95,7 +97,7 @@ public class CitizenView implements View
             System.out.println("PESEL: " + records.get(i).PESEL);
             System.out.println("Imie: " + records.get(i).name);
             System.out.println("Nazwisko: " + records.get(i).surname);
-            System.out.println("Data urodzenia: " + records.get(i).birthDate);
+            System.out.println("ewidencja.Data urodzenia: " + records.get(i).birthDate);
             System.out.println("Plec: " + records.get(i).sex);
             System.out.println("Miejsce zamieszkania: " + records.get(i).domicile);
         }
@@ -142,7 +144,7 @@ public class CitizenView implements View
         if(app.verifyData(record.PESEL, record.birthDate, record.sex))
         {
             app.changeData(record.PESEL, record, newData);
-            System.out.println("Dane zostały zmienione!");
+            System.out.println("ewidencja.Dane zostały zmienione!");
         }
         else
         {

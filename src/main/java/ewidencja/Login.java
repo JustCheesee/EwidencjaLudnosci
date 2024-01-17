@@ -1,3 +1,5 @@
+package ewidencja;
+
 public class Login {
     public String getPassword(long PESEL){
         //znalezienie hasla na podstawie peselu
