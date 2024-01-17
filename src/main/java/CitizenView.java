@@ -14,7 +14,7 @@ public class CitizenView implements View
     CitizenView() throws IOException {
         app = new App();
         newAccount = true;
-        GUI();
+//        GUI();
     }
 
     public void GUI() throws IOException
@@ -78,6 +78,7 @@ public class CitizenView implements View
             } else
             {
                 System.out.println("Sprobuj ponownie! Nieprawidlowy PESEL lub haslo.");
+                break;
             }
         }
     }
@@ -141,12 +142,13 @@ public class CitizenView implements View
         if(app.verifyData(record.PESEL, record.birthDate, record.sex))
         {
             app.changeData(record.PESEL, record, newData);
+            System.out.println("Dane zostały zmienione!");
         }
         else
         {
             System.out.println("Podane dane są nieprawidłowe!");
-            if(newData)inputData(true);
-            else inputData(false);
+//            if(newData)inputData(true);
+//            else inputData(false);
         }
     }
 }

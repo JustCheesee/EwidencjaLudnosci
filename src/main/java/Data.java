@@ -26,7 +26,6 @@ public class Data {
         record.name = "Julia";
         record.surname = "Kowalska";
         record.domicile = "Wroclaw";
-
         return record;
     }
 
