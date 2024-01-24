@@ -1,15 +1,22 @@
 package ewidencja;
 
 import java.time.LocalDate;
+import java.time.Period;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Data {
+    public Map<Long, Record> records = new HashMap<>();
     public boolean accountFirstInput(Record record){
         //Wprowadzanie danych uzytkownika po raz pierwszy do bazy
+        records.put(record.PESEL, record);
         return true;
     }
 
     public boolean changeData(long PESEL, Record record){
         //Zmiana danych w rubryce z PESEL danymi z record
+        records.put(PESEL, record);
         return true;
     }
 
@@ -21,14 +28,7 @@ public class Data {
     }
 
     public Record getData(long PESEL){
-        Record record = new Record();
-        record.PESEL = PESEL;
-        record.birthDate = LocalDate.of(1980, 5, 23);
-        record.sex = true;
-        record.name = "Julia";
-        record.surname = "Kowalska";
-        record.domicile = "Wroclaw";
-        return record;
+        return records.get(PESEL);
     }
 
     public Data(){};

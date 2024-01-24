@@ -29,5 +29,10 @@
       <artifactId>junit-jupiter-params</artifactId>
       <version>5.8.1</version>
     </dependency>
+    <dependency>
+      <groupId>com.c2.fit</groupId>
+      <artifactId>fit</artifactId>
+      <version>1.1</version>
+    </dependency>
   </dependencies>
 </project>

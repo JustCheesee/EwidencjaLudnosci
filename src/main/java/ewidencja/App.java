@@ -39,7 +39,7 @@ public class App implements Application
 
     public boolean login(long PESEL, String password)
     {
-        return login.checkPesel(PESEL) && login.getPassword(PESEL).equals(password);
+        return login.login(PESEL, password);
     }
 
     public boolean verifyData(long PESEL, LocalDate birthDate, boolean sex)
@@ -58,7 +58,10 @@ public class App implements Application
         if(criteria.citizenLogin)
         {
             ArrayList<Record> records = new ArrayList<>();
-            records.add(data.getData(criteria.PESEL));
+            if(data.records.containsKey(criteria.PESEL))
+            {
+                records.add(data.getData(criteria.PESEL));
+            }
             return records;
         }
         else
@@ -84,7 +87,7 @@ public class App implements Application
 
     public int createAccount(long PESEL, String password)
     {
-        if(!login.checkPesel(PESEL) && checkPassword(password))
+        if(login.checkPesel(PESEL) && checkPassword(password))
         {
             login.createAccount(PESEL, password);
             return 0;
