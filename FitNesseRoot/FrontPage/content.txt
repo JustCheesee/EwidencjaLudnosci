@@ -1,0 +1,4 @@
+!1 [[App][FrontPage.App]]
+!3 ''Testy akceptacyjne aplikacji''
+
+!path C:\Users\JustCheese\IdeaProjects\EwidencjaLudnosci\target\classes

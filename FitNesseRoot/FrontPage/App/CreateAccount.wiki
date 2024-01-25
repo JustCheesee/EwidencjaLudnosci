@@ -1,0 +1,9 @@
+---
+Test
+---
+|testyfitnessefixture.TestCreateAccount|
+|pesel|password|createAccount?|
+|12345678910|testhaslo|0|
+|1234567891|testhaslo|1|
+|12345678912|test|1|
+|12345678913|testtest|0|

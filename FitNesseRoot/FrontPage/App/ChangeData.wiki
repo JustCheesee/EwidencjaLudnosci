@@ -1,0 +1,8 @@
+---
+Test
+---
+|testyfitnessefixture.TestChangeData|
+|pesel|changeData?|
+|1234567891|true|
+|1234567892|true|
+|1234567893|true|

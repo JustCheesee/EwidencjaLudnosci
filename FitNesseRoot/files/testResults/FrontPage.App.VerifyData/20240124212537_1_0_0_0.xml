@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20231203</FitNesseVersion>
+  <rootPath>FrontPage.App.VerifyData</rootPath>
+  <result>
+    <counts>
+      <right>6</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>0</exceptions>
+    </counts>
+    <date>2024-01-24T21:25:37+01:00</date>
+    <runTimeInMillis>2</runTimeInMillis>
+    <content>&lt;div class="collapsible closed"&gt;&lt;ul&gt;&lt;li&gt;&lt;a href='#' class='expandall'&gt;Expand&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href='#' class='collapseall'&gt;Collapse&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+	&lt;p class="title"&gt;Included page: &lt;a href="FrontPage.App.SetUp"&gt;.FrontPage.App.SetUp&lt;/a&gt; &lt;a href="FrontPage.App.SetUp?edit&amp;amp;redirectToReferer=true&amp;amp;redirectAction=" class="edit"&gt;(edit)&lt;/a&gt;&lt;/p&gt;
+	&lt;div&gt;&lt;div class="contents"&gt;
+	&lt;b&gt;Contents:&lt;/b&gt;
+	&lt;ul class="toc1"/&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td&gt;testyfitnessefixture.SetUp&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;br/&gt;&lt;table&gt;
+	&lt;tr&gt;
+		&lt;td colspan="4"&gt;testyfitnessefixture.TestVerifyData&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;pesel&lt;/td&gt;
+		&lt;td&gt;date&lt;/td&gt;
+		&lt;td&gt;sex&lt;/td&gt;
+		&lt;td&gt;verifyData?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;12100878912&lt;/td&gt;
+		&lt;td&gt;1912-08-10&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;12345678910&lt;/td&gt;
+		&lt;td&gt;1911-10-08&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;false&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;1234234234&lt;/td&gt;
+		&lt;td&gt;1912-10-08&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;false&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;21345678910&lt;/td&gt;
+		&lt;td&gt;1918-10-08&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;false&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;25345678910&lt;/td&gt;
+		&lt;td&gt;1925-10-08&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;td&gt;61345678910&lt;/td&gt;
+		&lt;td&gt;1961-10-08&lt;/td&gt;
+		&lt;td&gt;0&lt;/td&gt;
+		&lt;td class="pass"&gt;true&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</content>
+    <relativePageName>VerifyData</relativePageName>
+  </result>
+  <finalCounts>
+    <right>1</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>0</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>3</totalRunTimeInMillis>
+</testResults>
+

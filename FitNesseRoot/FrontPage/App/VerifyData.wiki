@@ -1,0 +1,11 @@
+---
+Test
+---
+|testyfitnessefixture.TestVerifyData|
+|pesel		|date	   |sex|verifyData?|
+|12100878912|1912-08-10|  0|       true|
+|12345678910|1911-10-08|  0|      false|
+|1234234234 |1912-10-08|  0|      false|
+|21345678910|1918-10-08|  0|      false|
+|25345678910|1925-10-08|  0|       true|
+|61345678910|1961-10-08|  0|       true|

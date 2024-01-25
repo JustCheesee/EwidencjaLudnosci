@@ -1,0 +1,12 @@
+---
+Test
+---
+!include CreateAccount
+
+|testyfitnessefixture.TestLogin|
+|pesel		|haslo|login?|
+|12345678910|testhaslo|true	 |
+|1234567891|testhaslo|false	 |
+|12345678910|test|false	 |
+|12345678913		|testtest|true |
+|12345asda8913		|testtest|false |
